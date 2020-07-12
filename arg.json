@@ -1,0 +1,14 @@
+{
+   "login":"https://xxx.xxx.xx/login",
+   "report":"http://xxx.xxx.xx/infoplus/form/xxx",
+   "users":[
+   {
+      	"name": "username1",
+      	"password": "password1"
+      },
+    {
+      	"name": "username2",
+      	"password": "password2"
+      }
+   ]
+}
