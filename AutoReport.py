@@ -16,8 +16,11 @@ class AutoReport(object):
         self.chrome_options = webdriver.ChromeOptions()
         
         self.chrome_options.add_argument("--start-maximized");
-        self.chrome_options.add_argument("disable-gpu")
-        # OR options.add_argument("--disable-gpu")
+        self.chrome_options.add_argument('--no-sandbox') # Bypass OS security model
+        # self.chrome_options.headless = True # this also works
+        self.chrome_options.add_argument('--headless')  # Runs Chrome in headless mode.
+        self.chrome_options.add_argument("disable-gpu") # applicable to windows os only
+        self.chrome_options.add_argument("--disable-extensions")
     
         self.login_url = arg_dict['login']
         self.report_url = arg_dict['report']

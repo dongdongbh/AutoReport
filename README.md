@@ -42,8 +42,6 @@ You may have to modify the code for your website
 4. check post workflow match your report system
 
 ## Acknowledgement
-[Tesseract](https://nanonets.com/blog/ocr-with-tesseract/#preprocessingfortesseract?&utm_source=nanonets.com/blog/&utm_medium=blog&utm_content=%5BTutorial%5D%20OCR%20in%20Python%20with%20Tesseract,%20OpenCV%20and%20Pytesseract) is an open source text recognition (OCR) Engine. 
-
-Tesseract developed from OCRopus model in Python which was a fork of a LSTM in C++, called CLSTM. CLSTM is an implementation of the LSTM recurrent neural network model in C++, using the Eigen library for numerical computations.
+[Tesseract](https://nanonets.com/blog/ocr-with-tesseract/#preprocessingfortesseract?&utm_source=nanonets.com/blog/&utm_medium=blog&utm_content=%5BTutorial%5D%20OCR%20in%20Python%20with%20Tesseract,%20OpenCV%20and%20Pytesseract) is an open source text recognition (OCR) Engine. Tesseract developed from OCRopus model in Python which was a fork of a LSTM in C++, called CLSTM. CLSTM is an implementation of the LSTM recurrent neural network model in C++, using the Eigen library for numerical computations.
 
 You can train and fine-tune the model by following [this](https://github.com/tesseract-ocr/tessdoc/blob/master/TrainingTesseract-4.00.md).
